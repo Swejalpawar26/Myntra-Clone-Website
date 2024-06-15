@@ -6,7 +6,7 @@
 }
 header{
     display:flex;
-    background-color: #ffb8ae;
+    background-color: #f8d4d0;
     height: 80px;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ header{
     font-weight: 700;
     text-decoration: none;
     padding: 30px 0;
-    border-bottom: 2px solid #ffb8ae;
+    border-bottom: 1px solid  #f8dfdc;
     
 }
 .nav_bar a:hover{
@@ -69,7 +69,9 @@ header{
     height: 40px;
     border: 0;
     border-radius:  0 4px 4px 0;
+   
 }
+
 .action_bar{
     display: flex;
     min-width: 200px;
@@ -79,4 +81,99 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* main section */
+.banner_container{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale-item{
+    width: 250px;
+}
+.footer_container{
+    padding: 30px 0 40px 0;
+    background: #f8d4d0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_column h3 {
+    color: #282c3f;
+    margin: bottom 25px;
+    font-size: 14px;
+}
+.footer_column a {
+    color: #696e79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.popular_search{
+    padding: 40px;
+    background: #f8d4d0;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.polular_search h3{ 
+        color: #272b3e;
+        padding-left: 25px;
+        margin-bottom: 25px;
+        font-size: 14px;
+}
+#links ,.popular_search a{
+    text-decoration: none;
+    color: #696e79;
+    font-size: 15px;
+    
+}
+.app-store{
+    margin-top: 20px;
+    height: 500px;
+    background-image: url("/images/download2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.social-media{
+    margin-top: 20px;
+}
+.social-media  a img{
+    width: 20px;
+}
+.footer_column p {
+    font-size: larger;
+}
+.footer_column img {
+    display: inline;
+}
+.return-policy{
+    display: flex;
+    align-content: center;
+}
+.copyright{
+    color: #696e79;
+    text-align: center;
+    padding: 15px;
 }
