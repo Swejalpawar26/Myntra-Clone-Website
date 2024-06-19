@@ -152,7 +152,7 @@ header{
 .app-store{
     margin-top: 20px;
     height: 500px;
-    background-image: url("/images/download2.png");
+    background-image: url("images/download2.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
